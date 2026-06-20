@@ -1,13 +1,19 @@
 .container{
-    width:960px;
-    height:960px;
+    width:60vh;
+    height:60vh;
     border:10px solid black;
     display:flex;
     flex-direction: row;
     justify-self: start;
     flex-wrap: wrap;
-    
+    margin:auto;
 
+    margin-top:30px;
+
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
 }
 .grid{
     width:60px;
